@@ -1,0 +1,31 @@
+{
+  "name": "scripts-allin",
+  "version": "1.0.0",
+  "description": "run multiple scripts on a terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "scripts-allin": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zy445566/scripts-allin.git"
+  },
+  "keywords": [
+    "scripts",
+    "all",
+    "in",
+    "terminal"
+  ],
+  "author": "zy445566",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zy445566/scripts-allin/issues"
+  },
+  "homepage": "https://github.com/zy445566/scripts-allin#readme",
+  "dependencies": {
+    "commander": "^8.3.0"
+  }
+}
