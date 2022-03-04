@@ -7,6 +7,7 @@ function run(commandList) {
     const childList = []
     for(const command of commandList) {
         const child = exec(command);
+        child.ref()
         childList.push(child)
         child.stdout.pipe(process.stdout)
         child.stderr.pipe(process.stderr)

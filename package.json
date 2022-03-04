@@ -1,6 +1,6 @@
 {
   "name": "scripts-allin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "run multiple scripts on a terminal",
   "main": "index.js",
   "scripts": {
